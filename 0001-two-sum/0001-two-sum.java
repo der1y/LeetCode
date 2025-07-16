@@ -8,6 +8,7 @@ class Solution {
                 if (nums[i] + nums[x] == target) {
                     indices[0] = i;
                     indices[1] = x;
+                    break;
                     // return indices;
                 }
             }
