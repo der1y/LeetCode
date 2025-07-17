@@ -12,11 +12,10 @@ class Solution {
                 int currentNum = num;
                 int currentCount = 1;
 
-                while (numSet.contains(currentNum + 1)) {
+                while(numSet.contains(currentNum + 1)) {
                     currentNum++;
                     currentCount++;
                 }
-
                 maxCount = Math.max(maxCount, currentCount);
             }
         }
